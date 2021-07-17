@@ -1,4 +1,4 @@
-# Future Vs Queuable Apex
+# Future vs. Queuable Apex
 
 ## Future Methods 
 * Future method should return void and it should be declared as static.
