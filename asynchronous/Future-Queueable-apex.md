@@ -1,8 +1,6 @@
 # Future Vs Queuable Apex
 
 ## Future Methods 
-(source: https://www.apexhours.com/future-vs-queueable-apex/)
-
 * Future method should return void and it should be declared as static.
 * Can we pass objects as a parameter to the future method? No, we cannot pass the objects (custom, standard) as parameter. We can only pass the Id’s as a parameter, primitive data type or collection of primitive data types as a parameter.
 * Why we cannot pass the object (custom, standard) as a parameter? Remember we are working with asynchronous apex they will execute only when the resources are available so if we use the object as a parameter then the system will not hold the current data.
